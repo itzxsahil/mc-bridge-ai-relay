@@ -1,0 +1,12 @@
+{
+  "name": "mc-bridge-ai-relay",
+  "version": "1.0.0",
+  "description": "Lightweight WebSocket relay for Minecraft Bridge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
