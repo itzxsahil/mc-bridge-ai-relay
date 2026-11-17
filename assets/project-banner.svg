@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" width="100%" height="270">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0E14" />
+      <stop offset="100%" stop-color="#161B22" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="270" rx="14" fill="url(#termBg)" stroke="#30363D" stroke-width="1.5"/>
+  <rect width="900" height="38" rx="14" fill="#1C2128"/>
+  <rect y="24" width="900" height="14" fill="#1C2128"/>
+  <circle cx="22" cy="19" r="6" fill="#FF5F56"/>
+  <circle cx="40" cy="19" r="6" fill="#FFBD2E"/>
+  <circle cx="58" cy="19" r="6" fill="#27C93F"/>
+  <text x="450" y="24" fill="#8B949E" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">⛏️ Minecraft Bridge AI Relay • Live Preview</text>
+  <rect x="750" y="10" width="130" height="18" rx="9" fill="#21262D" stroke="#2EA043" stroke-width="1"/>
+  <text x="815" y="22" fill="#2EA043" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">WEBSOCKET RELAY</text>
+  <g transform="translate(15, 10)">
+    <text x="25" y="70" fill="#2EA043" font-family="'Fira Code', monospace" font-size="13">$ node server.js</text>
+<text x="25" y="96" fill="#C9D1D9" font-family="'Fira Code', monospace" font-size="13">[RELAY] Minecraft Bridge AI WebSocket server listening on port 8080...</text>
+<text x="25" y="122" fill="#C9D1D9" font-family="'Fira Code', monospace" font-size="13">[SOCKET] Minecraft server instance connected (Session: #MC-4819)</text>
+<text x="25" y="148" fill="#C9D1D9" font-family="'Fira Code', monospace" font-size="13">[AGENT] AI agent stream established (Session: #AI-9912)</text>
+<text x="25" y="174" fill="#58A6FF" font-family="'Fira Code', monospace" font-size="13">[STREAM] Bi-directional telemetry active (Chat, World Events, Actions)</text>
+<text x="25" y="200" fill="#C9D1D9" font-family="'Fira Code', monospace" font-size="13">[PERF] Average packet latency: 1.2ms • Throughput: 12,000 pkts/s</text>
+
+  </g>
+</svg>
